@@ -11,8 +11,6 @@ var removeVowel = function(string){
   }return chars.join("");
 };
 
-
-
 $(document).ready(function() {
   $("form#message").submit(function(event){
     var userMessage = $("#userInput").val();
