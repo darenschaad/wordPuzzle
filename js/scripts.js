@@ -2,8 +2,8 @@ var removeVowel = function(string){
 
   var vowels = ["a","e","i","o","u","A","E","I","O","U"];
   var chars = string.split("");
-  for (var i=0; i < chars.length; i ++){
-    for (var j=0; j < vowels.length; j ++){
+  for (var i=0; i < vowels.length; i ++){
+    for (var j=0; j < chars.length; j ++){
       if (chars[j] === vowels[i]){
         chars.splice(j, 1, "-");
       }
